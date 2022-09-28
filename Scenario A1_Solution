@@ -1,1 +1,9 @@
+Describe common pitfalls of Performance testing and how to overcome that with an example for each of the pitfall.
 
+1) Over estimated user load:
+There are cases that Stakeholders/Client comeup with more user load for the performance testing that results in pressuring the system with wrong performance testing results
+Solution:
+=> We need to look at the current user load at analytics tools like Googleanalytics for the current user load 
+=> We can also look at different production metrics => current user time, etc
+=> We can look for scenario specific count.Eg: How many users created, how many orders made, how many sigup was successful etc
+=> If its a cloud system we may also need to look at different metrics .Eg: like how many requests are allowed in particular AWS component
