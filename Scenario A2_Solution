@@ -1,0 +1,9 @@
+What are the different Performance Metrics you have come across in a Project and explain
+what is done in each to ensure high quality with an example:
+
+Solution:
+=> Response time: 90,95,99 and average response time: 
+This is most commonly used metrics for any applications like API/UI which will be part of SLA in Test Plan
+These are the various response time used to measure against the user load with respect to the performance test types(stress test,load test,etc)
+90/95/99 Percentile response time will be set according to the application type
+There will be SLA set for the user journey against the test scenarios(Eg: 5seconds).This again will ensure and troubleshoot any issues (hardware/in code) in production environment
