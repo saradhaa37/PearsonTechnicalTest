@@ -1,4 +1,5 @@
-About this Scenario:
+About this Scenario: a hypothetical JMeter script
+
 Problem:We had a scenario where we need to create user for testing Mobile application that involves application API and AWS commands
 
 
