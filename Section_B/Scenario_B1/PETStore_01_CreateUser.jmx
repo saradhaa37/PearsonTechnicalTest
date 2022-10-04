@@ -192,7 +192,7 @@ vars.put(&quot;p_lastName&quot;,sb_lastName.toString());</stringProp>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">/private/var/ripplingadmin/Documents/apache-jmeter-5.5/bin/Pearson/TestData/PetStore_UserDetails.csv</stringProp>
+            <stringProp name="filename">${p_baseDir}/TestData/PetStore_UserDetails.csv</stringProp>
             <boolProp name="ignoreFirstLine">true</boolProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
