@@ -1,5 +1,7 @@
 About this Scenario:
 Problem:We had a scenario where we need to create user for testing Mobile application that involves application API and AWS commands
+
+
 Solution:
 First step is to check how to create user from application
 Second step is to check AWS cognito commands for setting users(set password)
