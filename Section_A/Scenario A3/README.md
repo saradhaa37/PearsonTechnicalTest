@@ -12,5 +12,8 @@ Solution:
 
 Now,this script will create users using application API and AWS Cognito users which can be used for the further data preparation(user login) and testing create user scenario
 
-Note: This script doesn't contain any project related code
-AWS Commands reference -> https://docs.aws.amazon.com/cli/latest/reference/cognito-idp/admin-set-user-password.html
+Note: 
+
+=>This script doesn't contain any project related code
+
+=>AWS Commands reference -> https://docs.aws.amazon.com/cli/latest/reference/cognito-idp/admin-set-user-password.html
