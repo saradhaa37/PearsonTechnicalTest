@@ -5,10 +5,10 @@ Solution:
 
 => Response time: 90,95,99 and average response time: 
 
--This is most commonly used metrics for any applications like API/UI which will be part of SLA in Test Plan
+-This is the most commonly used metric for any applications like API/UI which will be part of SLA in Test Plan
 -These are the various response time used to measure against the user load with respect to the performance test types(stress test,load test,etc)
 -There will be SLA set for the user journey against each test transactions(Eg: 5seconds)
--This again will ensure and troubleshoot any issues (hardware/in code) in production environment
+-This will ensure and help to troubleshoot any issues (hardware/in code) in production environment
 
 => Server utilization: CPU and memory
 
@@ -23,7 +23,7 @@ Solution:
 
 -This will be reviewed to ensure if the query processing and thread lock not occured during test execution
 
-Other than this below metrics and components are monitored to ensure the passing the load testing,
+Other than this below metrics and components are monitored to ensure successful load testing,
 -> hits/second for each microservices in the APM tool (DataDog)
 -> No of errors and type of error in APM and log anlyser tool like (New Relic and Kibana)
 -> Network latency 
