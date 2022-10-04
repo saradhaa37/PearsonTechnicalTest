@@ -1,8 +1,8 @@
-How do you parametrize using JMeter with an example?
+How do you parameterize using JMeter with an example?
 
 Solution:
 
-We can parametrize in several ways using JMeter-
+We can parameterize in several ways using JMeter-
 
 =>CSV Data Set Config(most commonly used)
 
