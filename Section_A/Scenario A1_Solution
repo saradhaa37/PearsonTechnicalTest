@@ -23,21 +23,21 @@ Solution:
    Also we can use custome functions to support this Eg: JSR223 preprocessor, Random variable to dynamically handle huge test data need
 
 =>If we need to replicate production like scenario we may also need to drill down to cover all the possible paramerization as much as possible
-  EG: We neebooking time slots,using various payment methods and details, etc
+  EG: We need booking time slots,using various payment methods and details, etc
   
 3)Environment:
 
-Ideal way for the load testing would be using dedicated environment where as there are cases where we are given with other environments like UAT, dev environment for short term load testing requirements.
-We would be seeing below issues during this scenario:
+Ideal way for the load testing would be using dedicated environment where there are cases when we are given with other environments like UAT, dev environment for short term load testing requirements.
+We could anticipate below issues during this scenario:
 
 =>Other testing activities and deployment would be affecting scripting and execution
 
 => Test data would be affected/lost
 
-=>Affects the timeline as we need to wait for the other testing testing and depoyment activities
+=>Affects the timeline as we need to wait for the other testing and deployment activities
 
 Solution:
-=>We need to add these risk factors in the test plan and the requirement gathering phase all these issues and check for the appropriate time slots availibility for testing
+=>We need to add these risk factors in the test plan and the requirement gathering phase all these issues and check for appropriate time slots availibility for testing
 
 4) Estimation:
 There are number of factors that affects the timelines which are listed below
