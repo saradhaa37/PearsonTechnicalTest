@@ -1,9 +1,48 @@
 Describe common pitfalls of Performance testing and how to overcome that with an example for each of the pitfall.
 
 1) Over estimated user load:
+
 There are cases that Stakeholders/Client comeup with more user load for the performance testing that results in pressuring the system with wrong performance testing results
 Solution:
-=> We need to look at the current user load at analytics tools like Googleanalytics for the current user load 
+=> We need to look at the current user load at analytics tools like Googleanalytics for the current user load
+
 => We can also look at different production metrics => current user time, etc
+
 => We can look for scenario specific count.Eg: How many users created, how many orders made, how many sigup was successful etc
-=> If its a cloud system we may also need to look at different metrics .Eg: like how many requests are allowed in particular AWS component
+
+=> If its a cloud system we may also need to look at different metrics .Eg: like how many requests are allowed in particular AWS components
+
+2) Test data preparation:
+
+There are some issues and challenges will be seen with respect to the test data which are listed below with solution,
+
+=>In some cases using the same data for huge user load and for multiple iterations create problem at backend like thread lock
+
+Solution: 
+=> We need to load huge data with tespect to overall requests covered for the test than the users.
+   Also we can use custome functions to support this Eg: JSR223 preprocessor, Random variable to dynamically handle huge test data need
+
+=>If we need to replicate production like scenario we may also need to drill down to cover all the possible paramerization as much as possible
+  EG: We neebooking time slots,using various payment methods and details, etc
+  
+3)Environment:
+
+Ideal way for the load testing would be using dedicated environment where as there are cases where we are given with other environments like UAT, dev environment for short term load testing requirements.
+We would be seeing below issues during this scenario:
+
+=>Other testing activities and deployment would be affecting scripting and execution
+
+=> Test data would be affected/lost
+
+=>Affects the timeline as we need to wait for the other testing testing and depoyment activities
+
+Solution:
+=>We need to add these risk factors in the test plan and the requirement gathering phase all these issues and check for the appropriate time slots availibility for testing
+
+4) Estimation:
+There are number of factors that affects the timelines which are listed below
+1) Test data
+2) Environment
+
+=>We need estimate test script and data preparation with respect to the complexity of the system and the enviornment under test as this may take more time in automating the test scirpt and data uisng various tools and specific to environment(like some test data will be washed after each deployment)
+
