@@ -8,7 +8,7 @@ Solution:
 =>First step is to check how to create user from application api
 
 =>Second step is to check AWS cognito commands for setting users(set password)
-  -Tried to check a way in JMeter how to do this and found a way through OS process sampler
+  -Tried to check in JMeter how to do this and figured out this is possible through OS process sampler
   -Implemented OS process sampler for all the AWS commands
 
 Now,this script will create users using application API and AWS Cognito users which can be used for the further data preparation(user login) and testing create user scenario
