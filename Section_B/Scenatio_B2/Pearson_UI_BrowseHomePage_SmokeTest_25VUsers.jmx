@@ -16,12 +16,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="p_UserLoad" elementType="Argument">
             <stringProp name="Argument.name">p_UserLoad</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">25</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="p_Duration" elementType="Argument">
             <stringProp name="Argument.name">p_Duration</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">1000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="p_RampUpDuration" elementType="Argument">
@@ -45,10 +45,10 @@
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${p_UserLoad}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${p_RampUpDuration}</stringProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">${p_Duration}</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
         <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
